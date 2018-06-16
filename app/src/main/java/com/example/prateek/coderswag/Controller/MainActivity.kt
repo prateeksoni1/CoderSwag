@@ -1,7 +1,8 @@
-package com.example.prateek.coderswag
+package com.example.prateek.coderswag.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.prateek.coderswag.R
 
 class MainActivity : AppCompatActivity() {
 
