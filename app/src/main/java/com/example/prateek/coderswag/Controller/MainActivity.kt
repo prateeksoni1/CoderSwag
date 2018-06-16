@@ -3,6 +3,7 @@ package com.example.prateek.coderswag.Controller
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import com.example.prateek.coderswag.Adapters.CategoryAdapter
 import com.example.prateek.coderswag.Model.Category
 import com.example.prateek.coderswag.R
