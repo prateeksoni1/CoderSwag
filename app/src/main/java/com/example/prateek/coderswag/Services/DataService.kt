@@ -33,4 +33,15 @@ object DataService {
             Product("Hustle", "$48", "shirt4"),
             Product("KickFlip Studios", "$60", "shirt5")
     )
+
+    val digitalgoods = listOf<Product>()
+
+    fun getProducts(category: String) : List<Product>{
+        return when(category) {
+            "SHIRTS" -> shirts
+            "HATS" -> hats
+            "HOODIES" -> hoodies
+            else -> digitalgoods
+        }
+    }
 }
